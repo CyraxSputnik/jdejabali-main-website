@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <section className="grid text-center md:grid-cols-2 relative bg-gray-100
-        dark:bg-slate-800
+        dark:bg-gray-100
           md:flex justify-center pt-10 md:items-center md:text-left gap-64 ">
         <div className="flex flex-col">
           <h1 className="font-bold text-3xl md:text-5xl mb-7 text-gray-700">

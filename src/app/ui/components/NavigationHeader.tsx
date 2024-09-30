@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavigationHeader() {
     return (
-        <header className="bg-sky-950 text-gray-100 sm:text-inherit sm:bg-inherit
+        <header className="dark:bg-gray-100 text-gray-100 sm:text-inherit sm:bg-inherit
                 grid md:flex md:flex-row justify-center items-center text-center uppercase">
             <Link className="text-gray-800 md:absolute font-black m-5 left-14 text-base
                 decoration-2 duration-150 hover:text-sky-500" href="/">
@@ -21,10 +21,10 @@ export default function NavigationHeader() {
                     <span></span>
                     <span></span> */}
                     <ul className="flex flex-col md:flex-row justify-between text-xs font-medium">
-                        <Link className="m-5 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/solutions">Soluciones</Link>
-                        <Link className="m-5 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/downloads">Descargas</Link>
-                        <Link className="m-5 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/blog">Blog</Link>
-                        <Link className="m-5 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/forum">Foro</Link>
+                        <Link className="m-5 dark:text-slate-800 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/solutions">Soluciones</Link>
+                        <Link className="m-5 dark:text-slate-800 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/downloads">Descargas</Link>
+                        <Link className="m-5 dark:text-slate-800 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/blog">Blog</Link>
+                        <Link className="m-5 dark:text-slate-800 transition ease-in-out duration-200 decoration-2 hover:text-sky-500" href="/forum">Foro</Link>
                     </ul>
                 </div>
             </nav>
