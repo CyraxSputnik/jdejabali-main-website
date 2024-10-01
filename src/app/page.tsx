@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
         <div>
-          <Image className="w-auto relative max-sm:hidden" src={logo} alt="Logo de J de Jabalí Softworks" />
+          <Image className="w-auto relative max-sm:hidden" height={500} width={500} src={logo} alt="Logo de J de Jabalí Softworks" />
         </div>
 
       </section>
@@ -62,25 +62,25 @@ export default function Home() {
             puedes autocompletar los campos, solo selecciona tu usuario con Alt + flechas y presiona Ctrl + Enter.
             Si tienes varios clientes, puedes importar sus datos de manera masiva con un libro de excel.
           </p>
-          <Image className="mt-3" src={usuarios} alt="Captura de pantalla de la importación de usuarios" ></Image>
+          <Image className="mt-3" height={1368} width={2560} src={usuarios} alt="Captura de pantalla de la importación de usuarios" ></Image>
         </div>
 
         <div className="col-start-1 sm:col-start-4 sm:col-span-2">
           <p>Haz solicitudes al Web Service del SAT, y descarga hasta 200,000 CFDI de manera masiva.</p>
-          <Image className="mt-3" src={descargaMasiva} alt="Captura de pantalla de la descarga masiva" ></Image>
+          <Image className="mt-3" height={1368} width={2560} src={descargaMasiva} alt="Captura de pantalla de la descarga masiva" ></Image>
         </div>
 
         <div className="col-start-1 sm:col-start-2 sm:col-span-2">
           <p>Si lo prefieres, descarga tus XML desde el navegador interno del programa, solo busca los CFDI
             del periodo que desees descargar, y presiona el botón de "Descargar" que se encuentra en
             la parte inferior derecha.</p>
-          <Image className="mt-3" src={resumenDescarga} alt="Captura de pantalla del resumen de descarga" ></Image>
+          <Image className="mt-3" height={1368} width={2560} src={resumenDescarga} alt="Captura de pantalla del resumen de descarga" ></Image>
         </div>
 
         <div className="col-start-1 sm:col-start-4 sm:col-span-2">
           <p>Crea un reporte detallado de tus XML. Facturas de ingreso, egreso, pago, y nóminas. Pronto se añadirá
             soporte para más tipos de complementos.</p>
-          <Image className="mt-3" src={reporte} alt="Captura de pantalla de la creación de reportes" ></Image>
+          <Image className="mt-3" height={1368} width={2560} src={reporte} alt="Captura de pantalla de la creación de reportes" ></Image>
         </div>
 
         <div className="col-start-1 sm:col-start-2 sm:col-span-2">
@@ -88,7 +88,7 @@ export default function Home() {
             "Descarga de CFDI" en tu escritorio.
             Para crear los PDF, solo selecciona la carpeta de los XML del periodo que hayas descargado
             y presiona "Generar".</p>
-          <Image className="mt-3" src={representacionImpresa} alt="Captura de pantalla de la Representacion Impresa" ></Image>
+          <Image className="mt-3" height={1368} width={2560} src={representacionImpresa} alt="Captura de pantalla de la Representacion Impresa" ></Image>
         </div>
 
       </section>
