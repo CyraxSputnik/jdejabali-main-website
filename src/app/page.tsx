@@ -11,7 +11,7 @@ import representacionImpresa from '../public/static/images/JCFDI/PDF.png'
 export default function Home() {
   return (
     <div>
-      <section className="grid text-center md:grid-cols-2 relative bg-gray-100
+      <section className="grid w-full text-center md:grid-cols-2 relative bg-gray-100
         dark:bg-gray-100
           md:flex justify-center pt-10 md:items-center md:text-left gap-64 ">
         <div className="flex flex-col">
