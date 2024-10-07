@@ -7,10 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:worker": "cloudflare",
-    "dev:worker": "wrangler dev --port 8771",
-    "preview:worker": "npm run build:worker && npm run dev:worker",
-    "deploy:worker": "npm run build:worker && wrangler deploy"
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev",
+    "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "dependencies": {
     "next": "14.2.12",
@@ -18,7 +17,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "^0.0.3",
+    "@cloudflare/next-on-pages": "^1.13.5",
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18",
